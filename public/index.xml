@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nini&#39;s Note</title>
-    <link>/</link>
+    <link>/public/</link>
     <description>Recent content on Nini&#39;s Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>/public/about/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/public/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
@@ -20,10 +20,10 @@ Hugo makes use of a variety of open source projects including:
     
     <item>
       <title>使用 Hugo 搭配 GitHub page</title>
-      <link>/posts/hugo-blog/</link>
+      <link>/public/posts/hugo-blog/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/hugo-blog/</guid>
+      <guid>/public/posts/hugo-blog/</guid>
       <description>動機    原先在現成的平台記錄一些學習的文章，直到某次開啟網站時突然被告知，我的網站被停用（如下圖）
 到後台要備份資料時，完全找不到任何資料，上網搜尋解決方法。最後寄信給平台信箱，過幾天收到一封信之後，網站就恢復正常了。幸好寫過的文章都還在，真是萬幸
  WordPress 網站被停用，可以參考這篇：WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  也因此開始找一些方法來管理自己寫的文章，曾使用過 Hexo + GitHub Page，後期太久沒用，某次寫好文章要手動部署時，不小心覆蓋掉分支(當初沒有寫自動部署的殘念)。上網看了一些文章，最後決定用 Hugo + GitHub Page，拖了一段時間，這幾天才真正開始動手做
@@ -32,19 +32,19 @@ Hugo + GitHub Page     建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 
     
     <item>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>/public/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/categories/</guid>
+      <guid>/public/categories/</guid>
       <description>Categories</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>/public/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>/public/contact/</guid>
       <description>Follow me, @niniChang.</description>
     </item>
     

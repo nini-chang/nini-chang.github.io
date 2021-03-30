@@ -3,137 +3,137 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>/public/about/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/about/"
+                href="/public/zh-tw/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="/public/about/"
                 />
   </url>
   
   <url>
-    <loc>/tags/blog/</loc>
+    <loc>/public/tags/blog/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>/public/tags/hugo/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/public/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/"
+                href="/public/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/public/"
                 />
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/public/posts/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/public/tags/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/tags/"
+                href="/public/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/public/tags/"
                 />
   </url>
   
   <url>
-    <loc>/posts/hugo-blog/</loc>
+    <loc>/public/posts/hugo-blog/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/public/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/authors/"
+                href="/public/zh-tw/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/authors/"
+                href="/public/authors/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/public/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/categories/"
+                href="/public/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/public/categories/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/public/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/%E5%88%86%E9%A1%9E/"
+                href="/public/zh-tw/%E5%88%86%E9%A1%9E/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/public/categories/"
                 />
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>/public/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/%E8%81%AF%E7%B5%A1/"
+                href="/public/zh-tw/%E8%81%AF%E7%B5%A1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/contact/"
+                href="/public/contact/"
                 />
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>/public/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/series/"
+                href="/public/zh-tw/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="/public/series/"
                 />
   </url>
   

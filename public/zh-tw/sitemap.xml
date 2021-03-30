@@ -3,115 +3,115 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/zh-tw/about/</loc>
+    <loc>/public/zh-tw/about/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="/public/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/about/"
+                href="/public/zh-tw/about/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/authors/</loc>
+    <loc>/public/zh-tw/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/authors/"
+                href="/public/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/authors/"
+                href="/public/zh-tw/authors/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/categories/</loc>
+    <loc>/public/zh-tw/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/public/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/categories/"
+                href="/public/zh-tw/categories/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/</loc>
+    <loc>/public/zh-tw/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/public/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/"
+                href="/public/zh-tw/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/series/</loc>
+    <loc>/public/zh-tw/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="/public/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/series/"
+                href="/public/zh-tw/series/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/tags/</loc>
+    <loc>/public/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/public/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/tags/"
+                href="/public/zh-tw/tags/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/%E5%88%86%E9%A1%9E/</loc>
+    <loc>/public/zh-tw/%E5%88%86%E9%A1%9E/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/public/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/%E5%88%86%E9%A1%9E/"
+                href="/public/zh-tw/%E5%88%86%E9%A1%9E/"
                 />
   </url>
   
   <url>
-    <loc>/zh-tw/%E8%81%AF%E7%B5%A1/</loc>
+    <loc>/public/zh-tw/%E8%81%AF%E7%B5%A1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/contact/"
+                href="/public/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/zh-tw/%E8%81%AF%E7%B5%A1/"
+                href="/public/zh-tw/%E8%81%AF%E7%B5%A1/"
                 />
   </url>
   
