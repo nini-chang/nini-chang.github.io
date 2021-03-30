@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Nini&#39;s Note</title>
-    <link>/public/zh-tw/authors/</link>
+    <link>https://nini-chang.github.io/public/zh-tw/authors/</link>
     <description>Recent content in Authors on Nini&#39;s Note</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/public/zh-tw/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nini-chang.github.io/public/zh-tw/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

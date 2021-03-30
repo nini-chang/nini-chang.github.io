@@ -3,115 +3,115 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/public/zh-tw/about/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/about/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/about/"
+                href="https://nini-chang.github.io/public/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/about/"
+                href="https://nini-chang.github.io/public/zh-tw/about/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/authors/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/authors/"
+                href="https://nini-chang.github.io/public/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/authors/"
+                href="https://nini-chang.github.io/public/zh-tw/authors/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/categories/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/categories/"
+                href="https://nini-chang.github.io/public/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/categories/"
+                href="https://nini-chang.github.io/public/zh-tw/categories/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/"
+                href="https://nini-chang.github.io/public/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/"
+                href="https://nini-chang.github.io/public/zh-tw/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/series/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/series/"
+                href="https://nini-chang.github.io/public/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/series/"
+                href="https://nini-chang.github.io/public/zh-tw/series/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/tags/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/tags/"
+                href="https://nini-chang.github.io/public/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/tags/"
+                href="https://nini-chang.github.io/public/zh-tw/tags/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/%E5%88%86%E9%A1%9E/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/%E5%88%86%E9%A1%9E/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/categories/"
+                href="https://nini-chang.github.io/public/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/%E5%88%86%E9%A1%9E/"
+                href="https://nini-chang.github.io/public/zh-tw/%E5%88%86%E9%A1%9E/"
                 />
   </url>
   
   <url>
-    <loc>/public/zh-tw/%E8%81%AF%E7%B5%A1/</loc>
+    <loc>https://nini-chang.github.io/public/zh-tw/%E8%81%AF%E7%B5%A1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/public/contact/"
+                href="https://nini-chang.github.io/public/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="/public/zh-tw/%E8%81%AF%E7%B5%A1/"
+                href="https://nini-chang.github.io/public/zh-tw/%E8%81%AF%E7%B5%A1/"
                 />
   </url>
   

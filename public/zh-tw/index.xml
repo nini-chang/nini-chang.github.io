@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nini&#39;s Note</title>
-    <link>/public/zh-tw/</link>
+    <link>https://nini-chang.github.io/public/zh-tw/</link>
     <description>Recent content on Nini&#39;s Note</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/public/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nini-chang.github.io/public/zh-tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>關於</title>
-      <link>/public/zh-tw/about/</link>
+      <link>https://nini-chang.github.io/public/zh-tw/about/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/public/zh-tw/about/</guid>
+      <guid>https://nini-chang.github.io/public/zh-tw/about/</guid>
       <description>關於我</description>
     </item>
     
     <item>
       <title>分類</title>
-      <link>/public/zh-tw/%E5%88%86%E9%A1%9E/</link>
+      <link>https://nini-chang.github.io/public/zh-tw/%E5%88%86%E9%A1%9E/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/public/zh-tw/%E5%88%86%E9%A1%9E/</guid>
+      <guid>https://nini-chang.github.io/public/zh-tw/%E5%88%86%E9%A1%9E/</guid>
       <description>分類</description>
     </item>
     
     <item>
       <title>聯絡</title>
-      <link>/public/zh-tw/%E8%81%AF%E7%B5%A1/</link>
+      <link>https://nini-chang.github.io/public/zh-tw/%E8%81%AF%E7%B5%A1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/public/zh-tw/%E8%81%AF%E7%B5%A1/</guid>
+      <guid>https://nini-chang.github.io/public/zh-tw/%E8%81%AF%E7%B5%A1/</guid>
       <description>ninichang@live.com</description>
     </item>
     

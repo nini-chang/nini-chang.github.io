@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nini&#39;s Note</title>
-    <link>/public/tags/</link>
+    <link>https://nini-chang.github.io/public/tags/</link>
     <description>Recent content in Tags on Nini&#39;s Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nini-chang.github.io/public/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
-      <link>/public/tags/blog/</link>
+      <link>https://nini-chang.github.io/public/tags/blog/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/public/tags/blog/</guid>
+      <guid>https://nini-chang.github.io/public/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>/public/tags/hugo/</link>
+      <link>https://nini-chang.github.io/public/tags/hugo/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/public/tags/hugo/</guid>
+      <guid>https://nini-chang.github.io/public/tags/hugo/</guid>
       <description></description>
     </item>
     
