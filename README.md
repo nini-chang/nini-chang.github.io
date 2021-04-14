@@ -1,2 +1,2 @@
 # nini-chang.github.io
-GitHub Page
+Hugo + GitHub Page

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://nini-chang.github.io/zh-tw/about/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -29,9 +26,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/authors/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -43,9 +38,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/</loc>
     <xhtml:link
                 rel="alternate"
@@ -57,9 +50,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -71,9 +62,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -85,9 +74,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/%E5%88%86%E9%A1%9E/</loc>
     <xhtml:link
                 rel="alternate"
@@ -99,9 +86,7 @@
                 hreflang="zh-tw"
                 href="https://nini-chang.github.io/zh-tw/%E5%88%86%E9%A1%9E/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nini-chang.github.io/zh-tw/%E8%81%AF%E7%B5%A1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,5 +99,4 @@
                 href="https://nini-chang.github.io/zh-tw/%E8%81%AF%E7%B5%A1/"
                 />
   </url>
-  
 </urlset>
