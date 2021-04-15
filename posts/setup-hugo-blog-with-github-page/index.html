@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+
+    
+
+    <meta name="author" content="Nini Chang">
+    <meta name="description" content="Hugo &#43; GitHub Page     安裝 Hugo 建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page   1. 安裝 Hugo     For Mac (HomeBrew): $ brew install hugo 可參考官方文件: 安裝 HUGO  2. 建立 Hugo 專案     產生 hugo repo: $ hugo new site mgHugoBlog  mgHugoBlog 可以替換成你要的名稱 裡面會有 content、data、layouts、resources、static 等資料夾   完成上述步驟後，就已經有基本的架構了  3.">
+    <meta name="keywords" content="blog,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Setup Hugo Blog With Github Page"/>
+<meta name="twitter:description" content="Hugo &#43; GitHub Page     安裝 Hugo 建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page   1. 安裝 Hugo     For Mac (HomeBrew): $ brew install hugo 可參考官方文件: 安裝 HUGO  2. 建立 Hugo 專案     產生 hugo repo: $ hugo new site mgHugoBlog  mgHugoBlog 可以替換成你要的名稱 裡面會有 content、data、layouts、resources、static 等資料夾   完成上述步驟後，就已經有基本的架構了  3."/>
+
+    <meta property="og:title" content="Setup Hugo Blog With Github Page" />
+<meta property="og:description" content="Hugo &#43; GitHub Page     安裝 Hugo 建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page   1. 安裝 Hugo     For Mac (HomeBrew): $ brew install hugo 可參考官方文件: 安裝 HUGO  2. 建立 Hugo 專案     產生 hugo repo: $ hugo new site mgHugoBlog  mgHugoBlog 可以替換成你要的名稱 裡面會有 content、data、layouts、resources、static 等資料夾   完成上述步驟後，就已經有基本的架構了  3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-04-15T22:07:41&#43;08:00" />
+<meta property="article:modified_time" content="2021-04-15T22:07:41&#43;08:00" />
+
+
+
+    <title>
+  Setup Hugo Blog With Github Page · Nini&#39;s Note
+</title>
+
+    
+      <link rel="canonical" href="https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.04d6bedce375c4fcb6bf1e2c89e70f9e45a3431f1926a9f5f63749517718d366.css" integrity="sha256-BNa&#43;3ON1xPy2vx4siecPnkWjQx8ZJqn19jdJUXcY02Y=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.dde8a61eb31a32353b4baf3d9113f03c4ea2a8ca9bb736f59ca2d2b2cb664f0b.css" integrity="sha256-3eimHrMaMjU7S689kRPwPE6iqMqbtzb1nKLSsstmTws=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.82.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Nini&#39;s Note
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/">Categories</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://nini-chang.github.io/zh-tw/">🇹🇼</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/">
+              Setup Hugo Blog With Github Page
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-04-15T22:07:41&#43;08:00'>
+                April 15, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/hugo/">hugo</a>
+      <span class="separator">•</span>
+    <a href="/tags/blog/">blog</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h2 id="hugo--github-page">
+  Hugo + GitHub Page
+  <a class="heading-link" href="#hugo--github-page">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ol>
+<li>安裝 Hugo</li>
+<li>建立 Hugo 專案</li>
+<li>新增 Hugo 主題</li>
+<li>啟動 Hugo 專案</li>
+<li>將 Hugo 專案部署至 GitHub Page</li>
+</ol>
+<hr>
+<h3 id="1-安裝-hugo">
+  1. 安裝 Hugo
+  <a class="heading-link" href="#1-%e5%ae%89%e8%a3%9d-hugo">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>For Mac (HomeBrew): <code>$ brew install hugo</code></li>
+<li>可參考官方文件: <a href="https://gohugo.io/getting-started/installing/">安裝 HUGO</a></li>
+</ul>
+<h3 id="2-建立-hugo-專案">
+  2. 建立 Hugo 專案
+  <a class="heading-link" href="#2-%e5%bb%ba%e7%ab%8b-hugo-%e5%b0%88%e6%a1%88">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>產生 hugo repo: <code>$ hugo new site mgHugoBlog</code>
+<ul>
+<li>mgHugoBlog 可以替換成你要的名稱</li>
+<li>裡面會有 <code>content</code>、<code>data</code>、<code>layouts</code>、<code>resources</code>、<code>static</code> 等資料夾</li>
+</ul>
+</li>
+<li>完成上述步驟後，就已經有基本的架構了</li>
+</ul>
+<h3 id="3-新增-hugo-主題">
+  3. 新增 Hugo 主題
+  <a class="heading-link" href="#3-%e6%96%b0%e5%a2%9e-hugo-%e4%b8%bb%e9%a1%8c">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>可參考官網提供的 <a href="https://themes.gohugo.io/">Hugo 主題</a></li>
+<li>進去專案、初始化、新增主題(這邊以 <a href="https://github.com/luizdepra/hugo-coder.git">Hugo-coder</a> 為例)
+<ul>
+<li><code>$ cd myHugoBlog</code></li>
+<li><code>git init</code></li>
+<li><code>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder</code></li>
+</ul>
+</li>
+<li>專案裡面就會多一個資料夾是 <code>themes</code> 那包東西就是你剛剛新增進去的主題
+<ul>
+<li>有些會附上設定的範例可以參考</li>
+<li>其中，我的 <code>config.toml</code> 是參考這個主題的進行配置，可參考: <a href="https://github.com/luizdepra/hugo-coder/blob/master/exampleSite/config.toml">hugo-coder/exampleSite/config.toml</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="4-啟動-hugo-專案">
+  4. 啟動 Hugo 專案
+  <a class="heading-link" href="#4-%e5%95%9f%e5%8b%95-hugo-%e5%b0%88%e6%a1%88">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>
+<p>執行 <code>$ hugo server</code> 或是 <code>$ hugo server -D</code>就可以啟動專案囉</p>
+<ul>
+<li>開啟 <code>https://localhost:1313/</code> 就會看到網站目前的樣子</li>
+</ul>
+</li>
+<li>
+<p>如果跑不起來，可能要看一下錯誤訊息、檢查 hugo 版本</p>
+<ul>
+<li>查看錯誤訊息: <code>$ hugo --debug</code></li>
+<li>檢查版本: <code>$ hugo version</code> (延伸閱讀: <a href="https://hishark777.com/post/hugo-version/">Hugo 安裝指定版本</a>)</li>
+<li>經驗分享: 我之前遇到一次是因為 <code>config.toml</code> 沒有設定好，導致檔案一直找不到</li>
+</ul>
+</li>
+<li>
+<p>補充: 如果要新增文章，可以直接下指令 <code>$ hugo new posts/my-first-post.md</code> (這個檔案會長在 <code>content/posts</code> 裡面)</p>
+</li>
+</ul>
+<h3 id="5-將-hugo-專案部署至-github-page">
+  5. 將 Hugo 專案部署至 GitHub Page
+  <a class="heading-link" href="#5-%e5%b0%87-hugo-%e5%b0%88%e6%a1%88%e9%83%a8%e7%bd%b2%e8%87%b3-github-page">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>打包程式碼: <code>$ hugo</code>
+<ul>
+<li>會產生一個資料夾 <code>public</code> ，這就是部署至 GitHub page 時要用的</li>
+<li>到目前為止結構會長這樣</li>
+<li><img src="/images/2021-04/repo-structure.png" alt="repo structure"></li>
+</ul>
+</li>
+<li>到 GitHub 新增一個 repo
+<ul>
+<li>以我的為例: GitHub 名稱是 nini-chang。那麼這個 repo 就要命名為 nini-chang.github.io 才能夠使用 <a href="https://nini-chang.github.io">https://nini-chang.github.io</a> 這個網址</li>
+<li>建立的時候記得要勾選 <code>create README.md</code>，否則他不會幫你創建分支（印象中）、repo 要設為 public</li>
+<li>建立後要到 settings -&gt; 左側欄的 pages -&gt; source 中指定 <code>branch: main</code> &amp; <code>/(root)</code>
+<ul>
+<li><img src="/images/2021-04/github-page-setting.png" alt="GitHub Page setting"></li>
+</ul>
+</li>
+<li>但後來發現其實設定的方法不只一種，可以參考<a href="https://minayu.site/2019/04/how-to-host-hugo-on-github/">這篇</a></li>
+</ul>
+</li>
+<li>完成後，回到本地端的 hugo 專案
+<ul>
+<li>先進去我們剛打包的資料夾: <code>$ cd public</code></li>
+<li>初始化、設定 remote repo (就是剛剛在 GitHub 新增的 nini-chang.github.io)
+<ul>
+<li><code>$ git init</code></li>
+<li><code>$ git remote add origin git@github.com:nini-chang/nini-chang.github.io.git</code></li>
+<li>檢查一下是否有設定成功: <code>$ git remote -v</code> (會出現 fetch 跟 push 的 origin)</li>
+<li><img src="/images/2021-04/git-remote-v.png" alt="git remote -v"></li>
+</ul>
+</li>
+<li>推上去之前要注意一下 branch 的名稱是否為 <code>main</code>
+<ul>
+<li>GitHub 從去年開始就將預設的主分支從 <code>master</code> 改為 <code>main</code></li>
+<li>如果是 <code>master</code>，請在該分支上輸入指令: <code>$ git branch -m main</code></li>
+<li>完成後就會看到 branch 被改成 <code>main</code> 囉</li>
+</ul>
+</li>
+<li>接著就是將剛剛打包的 <code>public</code> 推上去
+<ul>
+<li><code>$ git add .</code></li>
+<li><code>$ git commit .</code></li>
+<li><code>$ git push -u origin main</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>基本上就已經完成部署囉！可以開啟你的 xxx.github.io 看看是否有畫面跟文章了！</p>
+<h3 id="補充">
+  補充
+  <a class="heading-link" href="#%e8%a3%9c%e5%85%85">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>如果想要將步驟二中建立的 hugo 專案上傳至 GitHub 維護，也可以開一個新的 repo (可設為 private)</p>
+<h2 id="參考文章">
+  參考文章
+  <a class="heading-link" href="#%e5%8f%83%e8%80%83%e6%96%87%e7%ab%a0">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://clhjoe.github.io/post/how-to-use-hugo/">How to Use Hugo</a></li>
+<li><a href="https://minayu.site/2019/01/from-wordpress-to-hugo/">[BLOG] 從 WORDPRESS 移動到 HUGO</a></li>
+<li><a href="https://minayu.site/2019/04/how-to-host-hugo-on-github/">[BLOG] 如何在 GITHUB 上架設 HUGO 網站</a></li>
+<li>官方文件:
+<ul>
+<li><a href="https://gohugo.io/getting-started/installing/">安裝 HUGO</a></li>
+<li><a href="https://themes.gohugo.io/">Hugo 主題</a></li>
+<li>本網站使用的主題: <a href="https://github.com/luizdepra/hugo-coder.git">Hugo-coder</a></li>
+</ul>
+</li>
+<li><a href="https://hishark777.com/post/hugo-version/">Hugo 安裝指定版本</a></li>
+</ul>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Carpe diem.</p>
+      
+      
+        ©
+        
+        2021
+         Nini Chang 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.235666b114443867d43eeb5799d51f6252965e5163f338285e113fa381d3d27e.js" integrity="sha256-I1ZmsRREOGfUPutXmdUfYlKWXlFj8zgoXhE/o4HT0n4="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

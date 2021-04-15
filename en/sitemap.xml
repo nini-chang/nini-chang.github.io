@@ -2,27 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nini-chang.github.io/about/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://nini-chang.github.io/zh-tw/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nini-chang.github.io/about/"
-                />
-  </url><url>
     <loc>https://nini-chang.github.io/tags/blog/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
   </url><url>
     <loc>https://nini-chang.github.io/tags/hugo/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
   </url><url>
     <loc>https://nini-chang.github.io/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -35,10 +22,13 @@
                 />
   </url><url>
     <loc>https://nini-chang.github.io/posts/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/</loc>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
   </url><url>
     <loc>https://nini-chang.github.io/tags/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -50,8 +40,24 @@
                 href="https://nini-chang.github.io/tags/"
                 />
   </url><url>
-    <loc>https://nini-chang.github.io/posts/hugo-blog/</loc>
+    <loc>https://nini-chang.github.io/tags/wordpress/</loc>
+    <lastmod>2021-03-29T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/posts/from-wordpress-to-hugo-blog/</loc>
+    <lastmod>2021-03-29T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/about/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://nini-chang.github.io/zh-tw/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nini-chang.github.io/about/"
+                />
   </url><url>
     <loc>https://nini-chang.github.io/authors/</loc>
     <xhtml:link

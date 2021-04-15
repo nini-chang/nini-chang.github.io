@@ -6,17 +6,27 @@
     <description>Recent content in hugo on Nini&#39;s Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nini-chang.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 22:07:41 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>使用 Hugo 搭配 GitHub page</title>
-      <link>https://nini-chang.github.io/posts/hugo-blog/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      <title>Setup Hugo Blog With Github Page</title>
+      <link>https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/</link>
+      <pubDate>Thu, 15 Apr 2021 22:07:41 +0800</pubDate>
       
-      <guid>https://nini-chang.github.io/posts/hugo-blog/</guid>
-      <description>動機    原先在現成的平台記錄一些學習的文章，直到某次開啟網站時突然被告知，我的網站被停用（如下圖）
+      <guid>https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/</guid>
+      <description>Hugo + GitHub Page     安裝 Hugo 建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page   1. 安裝 Hugo     For Mac (HomeBrew): $ brew install hugo 可參考官方文件: 安裝 HUGO  2. 建立 Hugo 專案     產生 hugo repo: $ hugo new site mgHugoBlog  mgHugoBlog 可以替換成你要的名稱 裡面會有 content、data、layouts、resources、static 等資料夾   完成上述步驟後，就已經有基本的架構了  3.</description>
+    </item>
+    
+    <item>
+      <title>從 WordPress 到 Hugo Blog</title>
+      <link>https://nini-chang.github.io/posts/from-wordpress-to-hugo-blog/</link>
+      <pubDate>Mon, 29 Mar 2021 22:07:41 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/posts/from-wordpress-to-hugo-blog/</guid>
+      <description>原先在現成的平台記錄一些學習的文章，直到某次開啟網站時突然被告知，我的網站被停用（如下圖）
 到後台要備份資料時，完全找不到任何資料，上網搜尋解決方法。最後寄信給平台信箱，過幾天收到一封信之後，網站就恢復正常了。幸好寫過的文章都還在，真是萬幸
- WordPress 網站被停用，可以參考這篇：WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  也因此開始找一些方法來管理自己寫的文章，曾使用過 Hexo + GitHub Page，後期太久沒用，某次寫好文章要手動部署時，不小心覆蓋掉分支(當初沒有寫自動部署的殘念)。上網看了一些文章，最後決定用 Hugo + GitHub Page，拖了一段時間，這幾天才真正開始動手做
-Hugo + GitHub Page     建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page  </description>
+ WordPress 網站被停用，可以參考這篇：WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  也因此開始找一些方法來管理自己寫的文章，曾使用過 Hexo + GitHub Page，後期太久沒用，某次寫好文章要手動部署時，不小心覆蓋掉分支(當初沒有寫自動部署的殘念)。上網看了一些文章，最後決定用 Hugo + GitHub Page，拖了一段時間，這幾天才真正開始動手做。
+下一篇來分享一下架設 hugo + GitHub Page 的過程吧！
+參考文章     WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  </description>
     </item>
     
   </channel>
