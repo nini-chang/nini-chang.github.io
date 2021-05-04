@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Nini&#39;s Note</title>
+    <title>Tags on Nini Chang</title>
     <link>https://nini-chang.github.io/tags/</link>
-    <description>Recent content in Tags on Nini&#39;s Note</description>
+    <description>Recent content in Tags on Nini Chang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Apr 2021 22:07:41 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 23:36:23 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>https://nini-chang.github.io/tags/javascript/</link>
+      <pubDate>Tue, 04 May 2021 23:36:23 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://nini-chang.github.io/tags/blog/</link>

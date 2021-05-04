@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Nini&#39;s Note</title>
+    <title>Nini Chang</title>
     <link>https://nini-chang.github.io/</link>
-    <description>Recent content on Nini&#39;s Note</description>
+    <description>Recent content on Nini Chang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Apr 2021 22:07:41 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 23:36:23 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 筆記 - 基礎概念 (1)</title>
+      <link>https://nini-chang.github.io/posts/js-concept-1/</link>
+      <pubDate>Tue, 04 May 2021 23:36:23 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/posts/js-concept-1/</guid>
+      <description>JavaScript 型別 主要可分成兩種類別：
+  原始型別 Primitive Type
+ string, number, boolean, null, undefined 最基本的單位，是一個「值」，並非物件 (沒有屬性) 不可變異的 (immutable)  可以改變變數的「值」，但無法改變其「儲存的位址」   必要時，JavaScript Engine 會強制轉換型別  原始型別 -&amp;gt; 對應的物件 除了 null &amp;amp; undefined，沒有對應的物件，所以不會被強制轉換 這篇有關於強制轉換型別更詳細的解說   讀取：A.length; 強制轉型 寫入：無效且錯誤，immutable    物件型別 Object Type
+ Object 可寫入，mutable(詳見下方範例)  -- mutable use strict; -- read property stringObj.length; // 回傳 5 (&amp;quot;Hello&amp;quot;) -- write property stringObj.myProperty = &#39;testing&#39;; stringObj.myProperty; // 回傳 testing  補充：可以用 typeof 辨別型別。除了 null，詳見下方範例。</description>
+    </item>
+    
     <item>
       <title>Setup Hugo Blog With Github Page</title>
       <link>https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/</link>
       <pubDate>Thu, 15 Apr 2021 22:07:41 +0800</pubDate>
       
       <guid>https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/</guid>
-      <description>Hugo + GitHub Page     安裝 Hugo 建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page   1. 安裝 Hugo     For Mac (HomeBrew): $ brew install hugo 可參考官方文件: 安裝 HUGO  2. 建立 Hugo 專案     產生 hugo repo: $ hugo new site mgHugoBlog  mgHugoBlog 可以替換成你要的名稱 裡面會有 content、data、layouts、resources、static 等資料夾   完成上述步驟後，就已經有基本的架構了  3.</description>
+      <description>Hugo + GitHub Page  安裝 Hugo 建立 Hugo 專案 新增 Hugo 主題 啟動 Hugo 專案 將 Hugo 專案部署至 GitHub Page   1. 安裝 Hugo  For Mac (HomeBrew): $ brew install hugo 可參考官方文件: 安裝 HUGO  2. 建立 Hugo 專案  產生 hugo repo: $ hugo new site mgHugoBlog  mgHugoBlog 可以替換成你要的名稱 裡面會有 content、data、layouts、resources、static 等資料夾   完成上述步驟後，就已經有基本的架構了  3. 新增 Hugo 主題  可參考官網提供的 Hugo 主題 進去專案、初始化、新增主題(這邊以 Hugo-coder 為例)  $ cd myHugoBlog git init git submodule add https://github.</description>
     </item>
     
     <item>
@@ -26,7 +38,7 @@
 到後台要備份資料時，完全找不到任何資料，上網搜尋解決方法。最後寄信給平台信箱，過幾天收到一封信之後，網站就恢復正常了。幸好寫過的文章都還在，真是萬幸
  WordPress 網站被停用，可以參考這篇：WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  也因此開始找一些方法來管理自己寫的文章，曾使用過 Hexo + GitHub Page，後期太久沒用，某次寫好文章要手動部署時，不小心覆蓋掉分支(當初沒有寫自動部署的殘念)。上網看了一些文章，最後決定用 Hugo + GitHub Page，拖了一段時間，這幾天才真正開始動手做。
 下一篇來分享一下架設 hugo + GitHub Page 的過程吧！
-參考文章     WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  </description>
+參考文章  WordPress 被暫停的紀錄：部落格還要繼續寫嗎？  </description>
     </item>
     
     <item>
@@ -42,12 +54,15 @@ end.</description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://nini-chang.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>我</title>
+      <link>https://nini-chang.github.io/about.zh-tw/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://nini-chang.github.io/contact/</guid>
-      <description>Follow me, @niniChang.</description>
+      <guid>https://nini-chang.github.io/about.zh-tw/</guid>
+      <description>剛轉職不久的前端網頁工程師，偶爾會看一些文章補充基礎概念、有時會做個筆記方便之後查找。
+對於想做的事情總是會先拖延一陣子才真正開始，比如這個小小網站。
+但大部分的時間都在睡覺跟廢。
+大概是這樣。</description>
     </item>
     
   </channel>

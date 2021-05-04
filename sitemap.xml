@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://nini-chang.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2021-04-15T22:07:41+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://nini-chang.github.io/zh-tw/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nini-chang.github.io/tags/javascript/</loc>
+    <lastmod>2021-05-04T23:36:23+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/posts/js-concept-1/</loc>
+    <lastmod>2021-05-04T23:36:23+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/</loc>
+    <lastmod>2021-05-04T23:36:23+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/posts/</loc>
+    <lastmod>2021-05-04T23:36:23+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/tags/</loc>
+    <lastmod>2021-05-04T23:36:23+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/tags/blog/</loc>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/tags/hugo/</loc>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/posts/setup-hugo-blog-with-github-page/</loc>
+    <lastmod>2021-04-15T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/tags/wordpress/</loc>
+    <lastmod>2021-03-29T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/posts/from-wordpress-to-hugo-blog/</loc>
+    <lastmod>2021-03-29T22:07:41+08:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/about/</loc>
+    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/about.zh-tw/</loc>
+    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nini-chang.github.io/categories/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JavaScript on Nini Chang</title>
+    <link>https://nini-chang.github.io/tags/javascript/</link>
+    <description>Recent content in JavaScript on Nini Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 May 2021 23:36:23 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 筆記 - 基礎概念 (1)</title>
+      <link>https://nini-chang.github.io/posts/js-concept-1/</link>
+      <pubDate>Tue, 04 May 2021 23:36:23 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/posts/js-concept-1/</guid>
+      <description>JavaScript 型別 主要可分成兩種類別：
+  原始型別 Primitive Type
+ string, number, boolean, null, undefined 最基本的單位，是一個「值」，並非物件 (沒有屬性) 不可變異的 (immutable)  可以改變變數的「值」，但無法改變其「儲存的位址」   必要時，JavaScript Engine 會強制轉換型別  原始型別 -&amp;gt; 對應的物件 除了 null &amp;amp; undefined，沒有對應的物件，所以不會被強制轉換 這篇有關於強制轉換型別更詳細的解說   讀取：A.length; 強制轉型 寫入：無效且錯誤，immutable    物件型別 Object Type
+ Object 可寫入，mutable(詳見下方範例)  -- mutable use strict; -- read property stringObj.length; // 回傳 5 (&amp;quot;Hello&amp;quot;) -- write property stringObj.myProperty = &#39;testing&#39;; stringObj.myProperty; // 回傳 testing  補充：可以用 typeof 辨別型別。除了 null，詳見下方範例。</description>
+    </item>
+    
+  </channel>
+</rss>
