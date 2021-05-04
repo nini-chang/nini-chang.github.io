@@ -7,21 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://nini-chang.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>關於</title>
+      <title>我</title>
       <link>https://nini-chang.github.io/zh-tw/about/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nini-chang.github.io/zh-tw/about/</guid>
-      <description>關於我</description>
-    </item>
-    
-    <item>
-      <title>分類</title>
-      <link>https://nini-chang.github.io/zh-tw/%E5%88%86%E9%A1%9E/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nini-chang.github.io/zh-tw/%E5%88%86%E9%A1%9E/</guid>
-      <description>分類</description>
+      <description>剛轉職不久的前端網頁工程師，偶爾會看一些文章補充基礎概念、有時會做個筆記方便之後查找。
+對於想做的事情總是會先拖延一陣子才真正開始，比如這個小小網站。
+但大部分的時間都在睡覺跟廢。
+大概是這樣。</description>
     </item>
     
     <item>
