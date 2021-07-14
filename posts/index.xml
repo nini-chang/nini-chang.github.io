@@ -6,7 +6,35 @@
     <description>Recent content in Posts on Nini Chang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 May 2021 23:36:23 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 13:39:56 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 類似繼承設計與原型鍊</title>
+      <link>https://nini-chang.github.io/posts/js-inheritance-and-prototype-chain/</link>
+      <pubDate>Wed, 14 Jul 2021 13:39:56 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/posts/js-inheritance-and-prototype-chain/</guid>
+      <description>1994 年，Netscape 發布 Navigator browser version 9.0。第一個較成熟的網路瀏覽器，但此版本只能「瀏覽」。工程師 Brendan Eich 負責使瀏覽器可以與網頁互動的語言，他認為只要能夠完成一些簡單操作就夠了。
+1994 年：Object-oriented programming 最興盛的時期，C++ 是當時最流行的語言，Java v1.0 即將推出。這使 Brendan Eich 受到影響，JavaScript 中所有的數據類型都是 object（這點與 Java 非常相似）。
+難題一：是否要設計「繼承」機制？ 基於 JavaScript 中都是 object，Brendan Eich 認為必須要有一種機制將他們聯繫起來，因此選擇設計「繼承」機制。但不打算引入 class 的概念，一旦有 class 使 JavaScript 成為完整的語言，但 Brendan Eich 認為這樣過於正式，且增加學習的難度。
+第一步：將 new 指令引入，並調用 constructor（未引入 class） 考量到 C++ 和 Java 都是使用 new 指令，生成實例（instance）。
+ Ｃ++ 語法: ClassName *object = new ClassName (param) ; Java 語法: Foo foo = new Foo () ;  但 JavaScript 中沒有 class，Brendan Eich 想到 C++ 和 Java 在使用 new 指令時都會調用 class 的函式建構式（function constructor）。於是在 JavaScript 中設計：new 指令後方的是函式建構式（function constructor），而非 class。</description>
+    </item>
+    
+    <item>
+      <title>JavaScript 筆記 - 基礎概念 (2)</title>
+      <link>https://nini-chang.github.io/posts/js-concept-2/</link>
+      <pubDate>Wed, 14 Jul 2021 13:03:04 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/posts/js-concept-2/</guid>
+      <description>物件導向 (Object-oriented Programming) 先來談談物件導向是什麼
+ 被理解為一種將程式分解為「封裝資料」及相關操作的「模組」，而進行的程式設計 通常共享高階程式的低階功能 基本工具：variable, function 利用繼承達到程式碼複用性、事物抽象化和物件的延伸性 訊息傳遞：動態組態（方法隨實例化動態的變化）   JavaScript 的 OOP 是 prototype-based，可參考: JavaScript 類似繼承設計與原型鍊
+ OOP 三大特性：
+ 封裝 (Encapsulation) 繼承 (Inheritance) 多型 (Polymorphism)  封裝 (Encapsulation) 目的是簡化、提升系統安全性。將物件內部具體實現的方法隱藏起來，使用者只能透過物件本身提供的介面（interface）取得物件內部屬性或方法。
+通常會賦予 public, private, protected 限制使用的對象。Public 可以被所有人都使用，private 僅限類別內部使用（子類別無法直接存取），protected 表示同一 package 成員可以直接存取，其他 package 必須透過繼承的方式才可以在子類別中存取。
+繼承 (Inheritance) 類別物件的資源的「延伸」和「重複使用」。而延伸使用的稱為子類別，子類別會比父類別更加具體化。
+class Bike { public String brand; public String Color; public int price; public String getBikeInfo() { return &amp;quot;Brand: &amp;quot; + brand + &amp;quot;, Color: &amp;quot; + color + &amp;quot;, Price: &amp;quot; + price; } } class Giant extends Bike { public String riderName; } 多型 (Polymorphism) 由繼承產生相關不同的 class，其物件會對同一訊息做不同反應。意即，多個相同名稱的方法，傳入不同參數會執行不同的敘述。其中包含多載（overloading）和覆寫（overriding）。</description>
+    </item>
+    
     <item>
       <title>JavaScript 筆記 - 基礎概念 (1)</title>
       <link>https://nini-chang.github.io/posts/js-concept-1/</link>

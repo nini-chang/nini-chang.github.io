@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Prototype-chain on Nini Chang</title>
+    <link>https://nini-chang.github.io/tags/prototype-chain/</link>
+    <description>Recent content in Prototype-chain on Nini Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Jul 2021 13:39:56 +0800</lastBuildDate><atom:link href="https://nini-chang.github.io/tags/prototype-chain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 類似繼承設計與原型鍊</title>
+      <link>https://nini-chang.github.io/posts/js-inheritance-and-prototype-chain/</link>
+      <pubDate>Wed, 14 Jul 2021 13:39:56 +0800</pubDate>
+      
+      <guid>https://nini-chang.github.io/posts/js-inheritance-and-prototype-chain/</guid>
+      <description>1994 年，Netscape 發布 Navigator browser version 9.0。第一個較成熟的網路瀏覽器，但此版本只能「瀏覽」。工程師 Brendan Eich 負責使瀏覽器可以與網頁互動的語言，他認為只要能夠完成一些簡單操作就夠了。
+1994 年：Object-oriented programming 最興盛的時期，C++ 是當時最流行的語言，Java v1.0 即將推出。這使 Brendan Eich 受到影響，JavaScript 中所有的數據類型都是 object（這點與 Java 非常相似）。
+難題一：是否要設計「繼承」機制？ 基於 JavaScript 中都是 object，Brendan Eich 認為必須要有一種機制將他們聯繫起來，因此選擇設計「繼承」機制。但不打算引入 class 的概念，一旦有 class 使 JavaScript 成為完整的語言，但 Brendan Eich 認為這樣過於正式，且增加學習的難度。
+第一步：將 new 指令引入，並調用 constructor（未引入 class） 考量到 C++ 和 Java 都是使用 new 指令，生成實例（instance）。
+ Ｃ++ 語法: ClassName *object = new ClassName (param) ; Java 語法: Foo foo = new Foo () ;  但 JavaScript 中沒有 class，Brendan Eich 想到 C++ 和 Java 在使用 new 指令時都會調用 class 的函式建構式（function constructor）。於是在 JavaScript 中設計：new 指令後方的是函式建構式（function constructor），而非 class。</description>
+    </item>
+    
+  </channel>
+</rss>
