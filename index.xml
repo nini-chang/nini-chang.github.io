@@ -75,21 +75,10 @@ class Bike { public String brand; public String Color; public int price; public 
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://nini-chang.github.io/about/</guid>
-      <description>As a junior front-end developer almost a year.
-sometimes read some articles or take notes.
-Mostly sleeping and veg out.
-end.</description>
-    </item>
-    
-    <item>
-      <title>我</title>
-      <link>https://nini-chang.github.io/about.zh-tw/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://nini-chang.github.io/about.zh-tw/</guid>
-      <description>剛轉職不久的前端網頁工程師，偶爾會看一些文章補充基礎概念、有時會做個筆記方便之後查找。
-對於想做的事情總是會先拖延一陣子才真正開始，比如這個小小網站。
-但大部分的時間都在睡覺跟廢。
+      <description>As a junior front-end developer almost a year and a half. Sometimes read some articles, take notes and records some issues&#39; solutions (from work). Besides work and study, I also do some exercises, playing switch or watching dramas &amp;amp; movies.
+That&amp;rsquo;s it.
+剛踏入前端一年半左右，偶爾會看一些文章補充基礎概念、做個筆記方便之後查找， 或是記錄一些工作上遇到問題的解決方法。
+對於想做的事情總是會先拖延一陣子才真正開始，比如這個小小網站。 除了工作和學習，偶爾會在家運動、玩 switch、看劇等休閒活動。
 大概是這樣。</description>
     </item>
     
